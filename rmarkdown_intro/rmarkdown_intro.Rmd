@@ -1,0 +1,86 @@
+---
+title: "Introduction to RMarkdown"
+output: revealjs::revealjs_presentation
+revealjs::revealjs_presentation:
+  self_contained: False
+  center: false
+  reveal_options:
+    slide_level: 1
+---
+
+### Use R Markdown to create reproducible reports
+
+<img src="Selection_052.png" alt="Screenshot from http://rmarkdown.rstudio.com" style="height: 500px;"/>
+
+---
+
+### R Markdown extends the Markdown language
+
+>- Simple syntax (learn it in 5 minutes)
+>- Source code is human readable
+>- Code translates in a predictable way to HTML
+>- Outputs to **HTML**, or **PDF** or **Word .doc** (*PanDoc*)
+>- Use your own CSS and include raw HTML in your file
+>- Markdown is used in Jupyter Notebooks, Github, etc.
+
+---
+
+### R Markdown has additional features
+
+>- Retains all Markdown syntax and features
+>- Integrated into *RStudio*
+>- Handles **LaTeX** mathematical notation (*MathJax*)
+>- Place **R** code and figures directly in your RMarkdown code
+>- Create slides like this presentation! (*RevealJS*)
+
+## 5-min crash course in **Markdown**
+
+>- Learn by doing ![http://dillinger.io](http://dillinger.io/)
+- Headings
+- Bold / Italics / Underline
+- Lists
+- Code blocks
+- Links
+- Arbitrary HTML
+- Link to Dillinger
+
+## What is RMarkdown and why am I so hype
+
+- Already use a lot of R
+- Embed LaTeX to write math using the standard languafe
+- Markdown is a subset of RMarkdown (all base features available)
+- Embed R code that compiles/runs to make reproducible reports
+- Translates to great LaTeX files (and HTML and Word and slides)
+- Fast, integrated, low syntatical overhead
+
+## Downsides
+
+- Only available in RStudio (currently dominant IDE for R, but not widely supported)
+- Translations are not always consistent (diff CSS, mostly a markdown problem)
+- Not suitable for journal publication (although most things will translate to LaTeX)
+
+## Crash Course in R Markdown
+
+- Install Rstudio
+- Create a new Rmarkdown file
+- Type some stuff
+- Markdown
+- LaTeX
+- R code
+- Save the file
+- Hit Knit to HTML
+- need to install LaTeX to get auto PDF
+- Find the HTML
+
+## Advanced
+
+- Caching
+- Making slides via Rmarkdown
+- Code chunk controls
+- Tables
+
+## References
+
+- LaTeX symbols
+- Getting started with R
+- KnitR
